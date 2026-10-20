@@ -18,7 +18,7 @@ async def get_key1():
     return {"message": os.getenv("test_key1")}
 
 @app.get("/get_key2")
-async def get_key2():
+async def get_key1():
     return {"message": os.getenv("PROJECT_ID")}
 
 @app.get("/get_project")
